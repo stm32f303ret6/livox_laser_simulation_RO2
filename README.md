@@ -1,5 +1,7 @@
 # livox_laser_simulation for RO2
-this is a ros2 port of the original repo: https://github.com/Livox-SDK/livox_laser_simulation
+this is a ros2 port of the original repo: https://github.com/Livox-SDK/livox_laser_simulation.
+
+tested in ros2 foxy and humble.
 
 ### Usage 
 1. clone this repo in your ros2 workspace
