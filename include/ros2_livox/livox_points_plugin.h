@@ -13,6 +13,7 @@
 #include "sensor_msgs/msg/point_cloud2.hpp"
 #include "sensor_msgs/point_cloud_conversion.hpp"
 #include "geometry_msgs/msg/transform_stamped.hpp"
+#include <livox_ros_driver2/msg/custom_msg.hpp>
 
 namespace gazebo
 {
@@ -102,6 +103,7 @@ namespace gazebo
 
       gazebo_ros::Node::SharedPtr node_;
       rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr cloud2_pub;
+      rclcpp::Publisher<livox_ros_driver2::msg::CustomMsg>::SharedPtr custom_pub;
       
       std::string parent_name;
       std::string child_name;
