@@ -5,6 +5,7 @@
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="stm32f303ret6@gmail.com">rsc</maintainer>
+  <maintainer email="1120220476@smbu.edu.cn">Lihan Chen</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
@@ -16,6 +17,8 @@
   <depend>sensor_msgs</depend>
   <depend>tf2_ros</depend>
   <depend>geometry_msgs</depend>
+  <depend>livox_ros_driver2</depend>
+
 <build_depend>gazebo_plugins</build_depend>
 <exec_depend>gazebo_plugins</exec_depend>
   <test_depend>ament_lint_auto</test_depend>
